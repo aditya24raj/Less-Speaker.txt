@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(23 23 23);
+
+}
+
+#app {
+    width: 330px;
+    height: 230px;
+    padding: 10px;
+    color: white;
+}
+
+header {
+    display: flex;
+}
+
+header #extension-name-container {
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+header #extension-name-container #extension-name {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: large;
+}
+
+header #extension-name-container #extension-description {
+    margin-top: 2px;
+    color: darkgray;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 36px;
+}
+
+footer {
+    margin-top: 60px;
+    padding-bottom: 12px;
+    color: darkgray;
+    text-align: right;
+}
+
+footer a {
+    color: darkgray;
+}
+
+footer .seperator {
+    margin-bottom: 10px;
+}
